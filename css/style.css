@@ -18,7 +18,7 @@ section {
 }
 
 .menu {
-    background-color: rgb(172, 201, 121);
+    /* background-color: rgb(172, 201, 121); */
     width: 95%;
     margin: auto;
 }
@@ -26,8 +26,8 @@ section {
 .menu-item {
     border: 1px solid black;
     background-color: #F6F1D1;
-    margin-right: auto;
-    margin-left: auto;
+    width: auto;
+    margin: 5px;
     overflow: auto;
     height: 250px;
     position: relative;
@@ -35,14 +35,14 @@ section {
 
 @media (min-width: 992px) {
     .col-lg-4 {
-        width: 33.33%;
+        width: 32.2%;
         float: left;
     }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md-6 {
-        width: 50%;
+        width: 48.6%;
         float: left;
     }
 }
